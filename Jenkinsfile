@@ -1,7 +1,7 @@
 node {
 
-  git url: 'https://github.com/pmisarwala/JunitExample.git'
+  git url: 'https://github.com/Yewale/JunitExample.git'
 
-  def mvnHome = tool 'M3'
+  def mvnHome = tool 'maven'
   sh "${mvnHome}/bin/mvn -B package"
 }
